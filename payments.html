@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma AIPlus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ai.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <h1>AIPlus</h1>
+        <nav>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#ferramentas">Ferramentas</a>
+            <a href="index.html#planos">Planos</a>
+            <a href="index.html#avaliacoes">Avaliações</a>
+        </nav>
+    </header>
+
+    <div class="container">
+    
+        <!-- MÉTODOS DE PAGAMENTO -->
+        <div class="payment-methods">
+            <h2>Métodos de Pagamento</h2>
+    
+            <input type="radio" name="method" id="card">
+            <label class="method-label" for="card">Cartão de Crédito</label>
+            <div class="form-container card-form">
+                <input type="text" placeholder="Número do cartão" required>
+                <input type="text" placeholder="Nome no cartão" required>
+                <input type="text" placeholder="Validade" required>
+                <input type="password" placeholder="CVV" required>
+                <input type="text" placeholder="CPF" required>
+            </div>
+    
+            <input type="radio" name="method" id="pix">
+            <label class="method-label" for="pix">Pix</label>
+            <div class="form-container pix-form">
+                <p>Use o QR Code abaixo:</p>
+                <div class="pix-qr">QR CODE</div>
+            </div>
+    
+            <input type="radio" name="method" id="boleto">
+            <label class="method-label" for="boleto">Boleto</label>
+            <div class="form-container boleto-form">
+                <p>Após confirmar, será gerado um boleto.</p>
+            </div>
+    
+        </div>
+    
+        <!-- PLANOS -->
+        <div class="plans-payments">
+            <h2>Escolha seu Plano</h2>
+    
+            <input type="radio" name="plan" id="basico">
+            <label class="plan-label" for="basico">Free - R$0/mês</label>
+    
+            <input type="radio" name="plan" id="premium">
+            <label class="plan-label" for="premium">Essencial - R$49,99/mês</label>
+    
+            <input type="radio" name="plan" id="pro">
+            <label class="plan-label" for="pro">Premium - R$149,99/ano</label>
+    
+            <div class="details plan-details">
+                <div id="basico-details">
+                    <h3>Vantagens Free</h3>
+                    <ul>
+                        <li>✓ Acesso limitado às ferramentas</li>
+                        <li>✓ 5 requisições diárias</li>
+                        <li>✕ Suporte prioritário</li>
+                    </ul>
+                    <p>Total: R$0</p>
+                </div>
+    
+                <div id="premium-details">
+                    <h3>Vantagens Essencial</h3>
+                    <ul>
+                        <li>✓ Acesso total por 30 dias</li>
+                        <li>✓ 100 requisições diárias</li>
+                        <li>✓ Suporte dedicado</li>
+                    </ul>
+                    <p>Total: R$49,99</p>
+                </div>
+    
+                <div id="pro-details">
+                    <h3>Vantagens Premium</h3>
+                    <ul>
+                        <li>✓ Acesso ilimitado às ferramentas</li>
+                        <li>✓ Integrações avançadas</li>
+                        <li>✓ Suporte 24h prioritário</li>
+                    </ul>
+                    <p>Total: R$149,99</p>
+                </div>
+            </div>
+    
+            <div class="coupon">
+                <input type="text" placeholder="Código de desconto">
+                <button>Aplicar</button>
+            </div>
+
+            <div class="coupon" style="justify-content: center;">
+                <button>Continuar para o pagamento</button>
+            </div>
+    
+        </div>
+    </div>
+      
+
+    
+    <footer>
+        © 2025 AIPlus. Todos os direitos reservados.
+    </footer>
+
+</body>
+
+</html>
