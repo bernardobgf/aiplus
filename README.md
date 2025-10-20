@@ -7,7 +7,7 @@
 
 ## 🌐 Demonstração  
 
-🔗 **Acesse o site:** [https://seulinkdoprojeto.com](https://seulinkdoprojeto.com)  
+🔗 **Acesse o site:** [https://bernardobgf.github.io/aiplus/](https://bernardobgf.github.io/aiplus/)  
 *(Substitua pelo link real quando o projeto estiver hospedado)*  
 
 
@@ -36,3 +36,4 @@ cd aiplus
 
 # Abra o arquivo principal
 start index.html
+
