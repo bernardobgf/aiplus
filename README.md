@@ -13,7 +13,7 @@
 ## 🌐 Demonstração  
 
 🔗 **Acesse o site:** [https://bernardobgf.github.io/aiplus/](https://bernardobgf.github.io/aiplus/)  
-
+🔗 **Acesse o prototipo:** [https://aipluss.streamlit.app/](https://aipluss.streamlit.app/)
 ---
 
 
