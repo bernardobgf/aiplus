@@ -14,6 +14,7 @@
 
 🔗 **Acesse o site:** [https://bernardobgf.github.io/aiplus/](https://bernardobgf.github.io/aiplus/)  
 🔗 **Acesse o prototipo:** [https://aipluss.streamlit.app/](https://aipluss.streamlit.app/)
+🔗 **Acesse o prototipo django:** [https://aiplus-prototipo.onrender.com/](https://aiplus-prototipo.onrender.com/)
 ---
 
 
@@ -52,6 +53,7 @@ cd aiplus
 
 # Abra o arquivo principal
 start index.html
+
 
 
 
